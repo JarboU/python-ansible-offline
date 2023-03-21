@@ -1,0 +1,4 @@
+#!/data/soft/python3_e17_ansible/bin/python3
+# EASY-INSTALL-SCRIPT: 'ansible==2.9.27','ansible'
+__requires__ = 'ansible==2.9.27'
+__import__('pkg_resources').run_script('ansible==2.9.27', 'ansible')
