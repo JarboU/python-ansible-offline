@@ -210,7 +210,7 @@ echo "复制${PYTHON_BASE}/etc/ansible.cfg文件到${CURRENT_USER_HOME}/.ansible
 cp -vf ${PYTHON_BASE}/etc/ansible.cfg ${CURRENT_USER_HOME}/.ansible.cfg
 echo ""
 echo "变更自定义plugins路径."
-sed -i "s:/data/python3_e17_ansible/:${PYTHON_BASE}:g" ${CURRENT_USER_HOME}/.ansible.cfg
+sed -i "s:/data/python3_e17_ansible/:${PYTHON_BASE}/:g" ${CURRENT_USER_HOME}/.ansible.cfg
 echo ""
 echo "配置ansible完成."
 
