@@ -197,12 +197,22 @@ else
     exit 1
 fi
 
-echo "查看ansible版本"
-ansible --version
-
 if [ $? = "0" ]; then 
     echo "ansible安装成功"
 else
     echo "ansible安装失败,请检查"
     exit 1
 fi
+
+echo ""
+echo "[info] 配置ansible:"
+echo "复制${PYTHON_BASE}/etc/ansible.cfg文件到${CURRENT_USER_HOME}/.ansible.cfg"
+cp -vf ${PYTHON_BASE}/etc/ansible.cfg ${CURRENT_USER_HOME}/.ansible.cfg
+echo ""
+echo "变更自定义plugins路径."
+sed -i "s:/data/python3_e17_ansible/:${PYTHON_BASE}:g" ${CURRENT_USER_HOME}/.ansible.cfg
+echo ""
+echo "配置ansible完成."
+
+echo "查看ansible版本"
+ansible --version
