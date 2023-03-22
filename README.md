@@ -11,4 +11,6 @@ $ mv python3_el7_ansible/ /data/
 #将应用目录移动至你需要的安装位置，我这里是安装在 /data 目录下
 $ cd /data/python3_el7_ansible/
 $ sh init.sh
+$ source ~/.bash_profile
+$ ansible --version
 ```
