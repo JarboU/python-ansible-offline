@@ -30,7 +30,7 @@ then
     echo "export PATH" >> ~/.bash_profile
     echo "### python end ###" >> ~/.bash_profile
     # 添加libressl动态链接库
-    echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:${PYTHON_BASE}/vendor/libressl/lib" >> ~/.bash_profile
+    #echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:${PYTHON_BASE}/vendor/libressl/lib" >> ~/.bash_profile
     # if [ -n "${is_el6}" ]
     # then
     #echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:${PYTHON_BASE}/vendor/libressl/lib" >> ~/.bash_profile
