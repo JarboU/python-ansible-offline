@@ -1,4 +1,4 @@
-# 适配 CentOS Linux release 7.9.2009 (Core) Minimal 版本
+# 测试平台：CentOS Linux release 7.9.2009 (Core) Minimal 版本
 ### python version: Python 3.11.0
 ### ansible version: 2.17.6
 
