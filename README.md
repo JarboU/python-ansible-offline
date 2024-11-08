@@ -6,7 +6,7 @@
 
 ```
 $ git clone https://github.com/JarboU/ansible-offline-CentOS.git
-$ cd ansible-offline-CentOS/ansible/CentOS7.9/
+$ cd ansible-offline-CentOS/
 $ mv python3_el7_ansible/ /data/
 #将应用目录移动至你需要的安装位置，我这里是安装在 /data 目录下
 $ cd /data/python3_el7_ansible/
