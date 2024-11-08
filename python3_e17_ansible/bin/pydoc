@@ -1,0 +1,4 @@
+#!/home/jarbo/.pyenv/versions/3.11.0/envs/python3_e17_ansible/bin/python
+import pydoc
+if __name__ == '__main__':
+      pydoc.cli()
