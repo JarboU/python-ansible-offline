@@ -1,7 +1,7 @@
 # python-ansible-offline
 ## 测试平台：CentOS Linux release 7.9.2009 (Core) Minimal 版本 / BigCloud Enterprise Linux 8.2 / SUSE Linux Enterprise Server 12 SP5
-### python version: Python 3.11.0
-### ansible version: 2.17.6
+### python version: Python 3.13.1
+### ansible version: 2.16.14
 
 使用方式：
 
